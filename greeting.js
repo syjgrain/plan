@@ -33,7 +33,7 @@ function loadName(){
     if(currentUser === null){
         askForName();
     } else {
-        paintGreeting(currentUser);
+         paintGreeting(currentUser);
     }
 }
 
