@@ -2,6 +2,8 @@ body{
     background-color: peru;
     
 }
+
+
 h1{
     color: white;
 }
@@ -22,7 +24,9 @@ h1{
         opacity: 1;
     }
 }
-
+.js-clock{
+    margin-left: 30px;
+}
 .bgImage {
     position: absolute;
     top: 0;
@@ -31,4 +35,41 @@ h1{
     height: 100%;
     z-index: -1;
     animation: fadeIn .5s linear;
+}
+
+.js-form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 30px;
+    transform: translate(-40%, -50%);
+}
+.js-greetings{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    font-size: 2.5rem;
+}
+.js-toDoForm{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    font-size: 1.5rem;
+}
+.js-toDoList{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.js-weather{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: white;
+    font-size: 1.5rem;
 }
